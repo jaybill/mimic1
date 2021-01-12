@@ -175,7 +175,7 @@ test_windows_build()
 set_windows_triplet()
 {
     export BUILD_TRIPLET=`sh ./config/config.guess`
-    export HOST_TRIPLET="i686-w64-mingw32"
+    export HOST_TRIPLET="x86_64-w64-mingw32"
 }
 
 compile_dependencies()
